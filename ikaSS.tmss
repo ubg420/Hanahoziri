@@ -1,0 +1,17 @@
+{
+    "image": "ika",
+    "frame": {
+        "width":200,
+        "height":200,
+        "count": 2
+    },
+
+    "animations": {
+        "tati": {
+            "frames": [0,1],
+            "next": "tati",
+            "frequency": 12
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+{
+    "image": "player",
+    "frame": {
+        "width":100,
+        "height":200,
+        "count": 6
+    },
+
+    "animations": {
+        "tati": {
+            "frames": [0,1,2],
+            "next": "tati",
+            "frequency": 6
+        },
+        "jump": {
+            "frames": [3,4,5],
+            "next": "jump",
+            "frequency": 3
+        }
+    }
+
+}
